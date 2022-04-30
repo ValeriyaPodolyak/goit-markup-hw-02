@@ -1,0 +1,81 @@
+/*  вторичный цвет текста #212121 */
+/* основной цвет текста #757575 */
+/* синий цвет акцент #2196F3 */
+/* белый цвет #FFFFFF */
+/* черный цвет для WebStudio #000000 */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #2F303A */
+
+body {
+    background-color: #E5E5E5;
+    color: #757575;
+}
+/* Logo style */
+.company-name {
+    color: #2196F3;
+}
+.logo-second-color {
+    color: #000000;
+}
+.list {
+    list-style: none;
+}
+/* Navigation style */
+.navigation .link {
+    color: #212121;
+}
+.navigation .link:hover, 
+.navigation .link:focus {
+    color: #2196F3;
+}
+/* Contact list style */
+.contacts-link {
+   color: #757575; 
+}
+.contacts-link:hover,
+.contacts-link:focus {
+   color: #2196F3; 
+}
+/* Hero style */
+.hero {
+background-color: #2F303A;
+}
+.hero-heading {
+    color: #FFFFFF;
+}
+.hero-btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+/* Advantages style */
+.advantages-item {
+    color: #212121;
+}
+/* Occupation styles */
+.occupation-heading {
+    color: #212121;
+}
+/* Members styles */
+.member-heading {
+    color: #212121;
+}
+.member-title {
+        color: #212121;
+}
+/* Footer styles */
+.ftr {
+    background-color: #2F303A;
+}
+.studio-color {
+    color: #FFFFFF;
+}
+.adrs {
+    color: #FFFFFF;
+}
+.address-contacts {
+    color: #FFFFFF;
+}
+.address-contacts:hover, 
+.address-contacts:focus {
+    color: #2196F3;
+}
