@@ -5,11 +5,13 @@
 /* черный цвет для WebStudio #000000 */
 /* основной цвет фона #E5E5E5 */
 /* вторичный цвет фона #2F303A */
+/* filter button color #F5F4FA */
 
 body {
     background-color: #E5E5E5;
     color: #757575;
 }
+/* main styles */
 /* Logo style */
 .company-name {
     color: #2196F3;
@@ -78,4 +80,17 @@ background-color: #2F303A;
 .address-contacts:hover, 
 .address-contacts:focus {
     color: #2196F3;
+}
+/* portfolio styles */
+/* Filter style */
+.filter-btn {
+    butt: #F5F4FA ;  
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.filter-examples-name {
+    color: #212121;
 }
