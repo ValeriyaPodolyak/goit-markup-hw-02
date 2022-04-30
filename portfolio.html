@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+ <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная страница веб студии</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
-  <body>
+    <body class="page">
     <header>
       <nav class="navigation">
-        <a class="company-name" href="/">WebStudio </a>
-        <ul class="nav-list">
+        <a class="company-name" href="/">Web<span class="logo-second-color">Studio </span></a>
+        <ul class="list nav-list">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">Студия</a>
+            <a class="link nav-link" href="./index.html">Студия</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Портфолио</a>
+            <a class="link nav-link" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Контакты</a>
+            <a class="link nav-link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="contacts">
-        <li><a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-phone" href="tel:380961111111">+38 096 111 11 11</a></li>
+      <ul class="list contacts">
+        <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
 <section class="filter">
     <h2 class="filter-heading">Фильтр примеров работ</h2>
-    <ul class="filter-btn-list">
+    <ul class=" list filter-btn-list">
         <li class="filter-btn-item">
-             <button type="button">Все</button>
+             <button class="filter-btn" type="button">Все</button>
         </li>
         <li class="filter-btn-item">
-             <button type="button">Веб-сайты</button>
+             <button class="filter-btn" type="button">Веб-сайты</button>
         </li>
         <li class="filter-btn-item">
-             <button type="button">Приложения</button>
+             <button class="filter-btn" type="button">Приложения</button>
         </li>
         <li class="filter-btn-item">
-             <button type="button">Дизайн</button>
+             <button class="filter-btn" type="button">Дизайн</button>
         </li>
         <li class="filter-btn-item">
-             <button type="button">Маркетинг</button>
+             <button class="filter-btn" type="button">Маркетинг</button>
         </li>
     </ul>
-<ul class="filter-examples-list">
+<ul class="list filter-examples-list">
     <li class="filter-examples-item">
         <img
               class="filter-examples-img"
@@ -164,14 +165,14 @@
 </ul>
 </section>            
     </main>
-    <footer>
-      <a class="company-name" href="/">WebStudio </a>
+    <footer class="ftr">
+      <a class="company-name" href="/">Web<span class="studio-color">Studio </span> </a>
       <address class="address">
-        <p>
+        <p class="adrs">
         г. Киев, пр-т Леси Украинки, 26 <br />
         </p>
-        <a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
-        <a class="contacts-phone" href="tel:380961111111">+38 096 111 11 11</a>
+        <a class="address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
+        <a class="address-contacts" href="tel:380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
