@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
- <head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная страница веб студии</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Project fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+<link rel="stylesheet" href="./css/styles.css">
   </head>
-    <body class="page">
-    <header>
+  <body class="page" >
+    <header class="hdr">
       <nav class="navigation">
         <a class="company-name" href="/">Web<span class="logo-second-color">Studio </span></a>
         <ul class="list nav-list">
@@ -16,7 +21,7 @@
             <a class="link nav-link" href="./index.html">Студия</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link" href="./portfolio.html">Портфолио</a>
+            <a class="link nav-link" href="./portfolio.html"><span class="current">Портфолио</span></a>
           </li>
           <li class="nav-item">
             <a class="link nav-link" href="#">Контакты</a>
@@ -24,13 +29,13 @@
         </ul>
       </nav>
       <ul class="list contacts">
-        <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+        <li><a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
 <section class="filter">
-    <h2 class="filter-heading">Фильтр примеров работ</h2>
+    <h2 class="visually-hidden filter-heading">Фильтр примеров работ</h2>
     <ul class=" list filter-btn-list">
         <li class="filter-btn-item">
              <button class="filter-btn" type="button">Все</button>
@@ -59,7 +64,7 @@
             />
             <div class="filter-examples-group">
               <h3 class="filter-examples-name">Технокряк</h3>
-              <p class="filter-examples-type">веб-сайт</p>
+              <p class="filter-examples-type">Веб-сайт</p>
             </div>
     </li>
     <li class="filter-examples-item">
@@ -124,7 +129,7 @@
             />
             <div class="filter-examples-group">
               <h3 class="filter-examples-name" lang="en">Inspiration has no Borders</h3>
-              <p class="filter-examples-type">веб-сайт</p>
+              <p class="filter-examples-type">Веб-сайт</p>
             </div>
     </li>
     <li class="filter-examples-item">
@@ -171,8 +176,8 @@
         <p class="adrs">
         г. Киев, пр-т Леси Украинки, 26 <br />
         </p>
-        <a class="address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
-        <a class="address-contacts" href="tel:380961111111">+38 096 111 11 11</a>
+        <a class="link adrs-link" href="mailto:info@example.com">info@example.com</a> <br />
+        <a class="link adrs-link" href="tel:380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>

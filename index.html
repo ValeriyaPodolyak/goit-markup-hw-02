@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная страница веб студии</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Project fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+<link rel="stylesheet" href="./css/styles.css">
   </head>
   <body class="page" >
-    <header>
+    <header class="hdr">
       <nav class="navigation">
         <a class="company-name" href="/">Web<span class="logo-second-color">Studio </span></a>
         <ul class="list nav-list">
           <li class="nav-item">
-            <a class="link nav-link" href="./index.html">Студия</a>
+            <a class="link nav-link" href="./index.html">  <span class="current">Студия</span> </a>
           </li>
           <li class="nav-item">
             <a class="link nav-link" href="./portfolio.html">Портфолио</a>
@@ -24,38 +29,38 @@
         </ul>
       </nav>
       <ul class="list contacts">
-        <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+        <li><a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <div class="hero">
         <section>
-          <h1 class="hero-heading">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero-heading"> Эффективные решения <br /> для вашего бизнеса</h1>
           <button class="hero-btn" type="button">Заказать услугу</button>
         </section>
       </div>
       <section class="advantages">
         <ul class="list advantages-list">
           <li class="advantages-item">
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <h3 class="advantages-heading">Внимание к деталям</h3>
+            <p class="advantages-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
           <li class="advantages-item">
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="advantages-heading">Пунктуальность</h3>
+            <p class="advantages-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li class="advantages-item">
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="advantages-heading">Планирование</h3>
+            <p class="advantages-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li class="advantages-item">
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <h3 class="advantages-heading">Современные технологии</h3>
+            <p class="advantages-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
         </section>
@@ -155,8 +160,8 @@
         <p class="adrs">
         г. Киев, пр-т Леси Украинки, 26 <br />
         </p>
-        <a class="address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
-        <a class="address-contacts" href="tel:380961111111">+38 096 111 11 11</a>
+        <a class="link adrs-link" href="mailto:info@example.com">info@example.com</a> <br />
+        <a class="link adrs-link" href="tel:380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
